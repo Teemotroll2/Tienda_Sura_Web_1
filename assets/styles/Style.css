@@ -1,0 +1,32 @@
+body{
+    background-color: yellow ;
+}
+
+.banner{
+    background-image: url("../img/887832.jpg");
+    padding: 15% 40% 25% 40%;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.fuente{
+font-family: 'Comic Neue', cursive;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+color: violet;
+font-size: 60px;
+}
